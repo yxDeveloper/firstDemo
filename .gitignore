@@ -1,2 +1,8 @@
-#忽略掉js目录
+#不传js文件
 /js/
+#不传所有zip格式的文件
+*.zip
+#不传具体的文件index.php
+/js/index.php
+#传index.js文件
+!index.js
